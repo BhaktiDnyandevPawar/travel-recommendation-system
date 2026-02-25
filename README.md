@@ -20,6 +20,7 @@ Predict attraction ratings
 Classify rating categories
 Recommend attractions based on user similarity
 
+
 **Dataset Features**
 User ID
 Attraction ID
@@ -27,6 +28,7 @@ Category
 Location
 Rating (1–5 scale)
 Target Variable: Rating
+
 
 **Exploratory Data Analysis**
 EDA included:
@@ -37,7 +39,9 @@ Feature encoding
 Correlation analysis
 The dataset showed class imbalance and subjective rating behavior.
 
+
  **Machine Learning Models**
+ 
 **1.Regression – Rating Prediction**
 Model Used: Gradient Boosting Regressor
 Performance:
@@ -46,6 +50,7 @@ R² Score: 0.02
 Cross-Validation R²: 0.02
 The model performs better than a baseline predictor.
 Low R² reflects the subjective nature of user ratings.
+
 
 **2. Classification – Rating Category Prediction**
 Multi-class classification model to predict rating classes.
@@ -57,6 +62,7 @@ F1-Score
 Confusion Matrix
 Class imbalance was observed in the dataset.
 
+
 **3. Recommendation System**
 Implemented User-Based Collaborative Filtering:
 Created user-item interaction matrix
@@ -66,6 +72,7 @@ Sample Outputs
 Confusion Matrix
 Rating Distribution
 
+
 **Technologies Used**
 Python
 Pandas
@@ -73,6 +80,7 @@ NumPy
 Scikit-learn
 Matplotlib
 Seaborn
+
 
 **Future Improvements**
 Add sentiment analysis using review text
